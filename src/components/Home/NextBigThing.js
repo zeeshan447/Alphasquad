@@ -8,7 +8,7 @@ export const NextBigThing = () => {
         <span className="block">market faster </span>
       </h1>
       <div className="flex justify-center items-center">
-        <button className="px-4 py-2 mt-20 w-40 h-14 text-white bg-blue_dark">
+        <button className="font-Mullish px-4 py-2 mt-20 w-40 h-14 text-white bg-blue_dark">
           Download Now
         </button>
       </div>

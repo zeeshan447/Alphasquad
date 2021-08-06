@@ -29,7 +29,7 @@ export const Howitworks = () => {
           <img src={iphonexs} alt="iphonexs" className="ml-60 "></img>
         </div>
         <div className="grid grid-cols-2 space-x-10 ml-9">
-          <button className=" ml-8 w-40 h-14 text-white bg-blue_dark ">
+          <button className="font-Mullish ml-8 w-40 h-14 text-white bg-blue_dark ">
             Learn More
           </button>
           <img src={next} alt="next"></img>

@@ -18,11 +18,11 @@ export const Pricing = () => {
             team
           </span>
         </p>
-        <div className="flex justify-center items-center">
-          <button className="mt-20 px-4 py-2 w-40 h-14 text-white bg-blue_dark font-semibold text-pricing_button">
+        <div className="flex justify-center items-center mr-8">
+          <button className="font-Mullish mt-20 px-12 py-4 w-40 h-14 text-white bg-blue_dark font-semibold text-pricing_button">
             Monthly
           </button>
-          <button className="mt-20 px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark font-semibold text-pricing_button">
+          <button className="font-Mullish mt-20 px-12 py-4 w-40 h-14 bg-cyan text-cyan_dark font-semibold text-pricing_button">
             Yearly
           </button>
         </div>

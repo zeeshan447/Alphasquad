@@ -59,6 +59,9 @@ module.exports = {
     width: {
       width_500: "500px",
     },
+    fontFamily: {
+      Mullish: ["Mullish"],
+    },
   },
   variants: {
     extend: {},

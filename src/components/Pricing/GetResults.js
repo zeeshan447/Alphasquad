@@ -13,7 +13,7 @@ export const GetResults = () => {
           unsubscribe
         </p>
         <div className="flex flex-row justify-center items-center">
-          <button className="mt-8 px-4 py-2 mb-8  w-40 h-14 text-cyan_dark bg-white">
+          <button className="font-Mullish mt-8 px-4 py-2 mb-8  w-40 h-14 text-cyan_dark bg-white">
             Start Free Trial
           </button>
         </div>

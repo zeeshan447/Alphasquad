@@ -58,7 +58,7 @@ export const PriceData = () => {
   ];
   return (
     <React.Fragment>
-      <div className="flex flex-row mt-24 justify-center items-center ml-96 space-x-64">
+      <div className="flex flex-row mt-24 justify-center items-center ml-96 space-x-64 mt-80">
         <h1 className="text-pricing font-extrabold	">Starter</h1>
         <h1 className="text-pricing font-extrabold text-blue_light	">Pro</h1>
         <h1 className="text-pricing font-extrabold	">Enterprise</h1>
@@ -93,13 +93,13 @@ export const PriceData = () => {
         })}
       </div>
       <div className="flex flex-row mt-24 ml-96 space-x-64 ">
-        <button className="px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
+        <button className="font-Mullish px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
           Choose plan
         </button>
-        <button className="px-4 py-2 w-40 h-14 text-white bg-blue_dark">
+        <button className="font-Mullish px-4 py-2 w-40 h-14 text-white bg-blue_dark">
           Choose plan
         </button>
-        <button className="px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
+        <button className="font-Mullish px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
           Choose plan
         </button>
       </div>
