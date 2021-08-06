@@ -25,6 +25,24 @@ export const CaseStudyInner = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-end mr-32">
+          <div className="justify-end box-border  p-4 bg-cyan_dark border-transparent ml-96 order-1">
+            <h2 className="text-white text-faq_question font-bold">
+              Get Webber for your organization
+            </h2>
+            <p className="text-faq_answer mr-8 text-white mt-8">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look.
+            </p>
+            <div className="flex space-x-3 mt-8">
+              <button className="font-Mullish px-8 py-2 bg-white text-cyan_dark h-32 w-32">
+                Start Trial
+              </button>
+              <button className="font-Mullish px-8 py-2 box-border border-white text-white border-2 bg-transparent">
+                Contact Sales
+              </button>
+            </div>
+          </div>
           <img src={pc} alt="computer"></img>
         </div>
         <div className="grid grid-cols-2">
@@ -79,24 +97,6 @@ export const CaseStudyInner = () => {
               reasonable. The generated Lorem Ipsum is therefore always free
               from repetition, injected humour, or non-characteristic words etc.
             </p>
-          </div>
-          <div className="justify-end box-border h-8 w-32 p-4 bg-cyan_dark border-transparent mr-32 ml-20">
-            <h2 className="text-white text-faq_question font-bold	">
-              Get Webber for your organization
-            </h2>
-            <p className="text-faq_answer mr-8 text-white mt-8">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look.
-            </p>
-            <div className="flex space-x-3 mt-8">
-              <button className="font-Mullish px-8 py-2 bg-white text-cyan_dark h-32 w-32">
-                Start Trial
-              </button>
-              <button className="font-Mullish px-8 py-2 box-border border-white text-white border-2 bg-transparent">
-                Contact Sales
-              </button>
-            </div>
           </div>
         </div>
       </div>
