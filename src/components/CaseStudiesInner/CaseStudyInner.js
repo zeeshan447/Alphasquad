@@ -7,7 +7,7 @@ import { MoreCaseStudies } from "./MoreCaseStudies";
 export const CaseStudyInner = () => {
   return (
     <React.Fragment>
-      <div className="ml-16 mt-16">
+      <div className="pl-16 pt-16 bg-gradient-to-b from-cyan_background">
         <h4 className="text-case_study_location ">Kanban Software</h4>
         <h1 className="font-extrabold text-case_studydetail_title">
           Trello x Webber

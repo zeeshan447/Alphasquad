@@ -6,8 +6,8 @@ import { PriceData } from "./PriceData";
 export const Pricing = () => {
   return (
     <React.Fragment>
-      <div>
-        <h1 className="text-dark_black text-large text-center font-black mt-32">
+      <div className="bg-gradient-to-b from-cyan_background">
+        <h1 className="text-dark_black text-large text-center font-black pt-32">
           SIMPLE PRICING
         </h1>
         <p className="text-pricing_desc text-light_gray text-center ">
@@ -26,8 +26,9 @@ export const Pricing = () => {
             Yearly
           </button>
         </div>
+        <PriceData />
       </div>
-      <PriceData />
+
       <FrequentlyAsked />
       <GetResults />
     </React.Fragment>

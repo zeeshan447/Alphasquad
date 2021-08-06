@@ -4,8 +4,8 @@ import { CaseStudyDetails } from "./CaseStudyDetails";
 export const CaseStudy = () => {
   return (
     <React.Fragment>
-      <div>
-        <h1 className="text-center font-black text-large mt-20">
+      <div className="bg-gradient-to-b from-cyan_background">
+        <h1 className="text-center font-black text-large pt-20">
           CASE STUDIES
         </h1>
         <p className="text-center text-light_gray text-pricing_desc">
