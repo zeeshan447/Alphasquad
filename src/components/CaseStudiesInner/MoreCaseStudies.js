@@ -37,7 +37,7 @@ export const MoreCaseStudies = () => {
   ];
   return (
     <React.Fragment>
-      <div>
+      <div className="bg-cream">
         <h1 className="mt-8 ml-8 text-case_study_title font-bold">
           More Case Studies
         </h1>

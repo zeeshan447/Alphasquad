@@ -54,29 +54,31 @@ const Data = [
 export const CaseStudyDetails = () => {
   return (
     <React.Fragment>
-      <div className="flex flex-wrap justify-center items-center mt-20">
-        {Data.map((data, key) => {
-          return (
-            <div>
-              <img
-                className="w-500px h-600px"
-                src={data.image}
-                alt="random"
-              ></img>
-              <h4 className="text-case_study_location">{data.location}</h4>
-              <h3 className="text-case_study_title font-extrabold">
-                {data.title}
-              </h3>
-              <p className="text-case_study_desc mb-8 mr-8 text-justify">
-                {data.Description}
-              </p>
+      <div>
+        <div className="flex flex-wrap justify-center items-center mt-20">
+          {Data.map((data, key) => {
+            return (
+              <div>
+                <img
+                  className="w-500px h-600px"
+                  src={data.image}
+                  alt="random"
+                ></img>
+                <h4 className="text-case_study_location">{data.location}</h4>
+                <h3 className="text-case_study_title font-extrabold">
+                  {data.title}
+                </h3>
+                <p className="text-case_study_desc mb-8 mr-8 text-justify">
+                  {data.Description}
+                </p>
 
-              <button className="text-cyan_dark text-case_study_location">
-                Read More
-              </button>
-            </div>
-          );
-        })}
+                <button className="text-cyan_dark text-case_study_location">
+                  Read More
+                </button>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </React.Fragment>
   );
