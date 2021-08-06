@@ -5,7 +5,7 @@ import WebberLogo from "../../images/logo.png";
 export const Navbar = () => {
   return (
     <nav>
-      <ul className=" space-x-5 flex-1 flex justify-center mr-auto p-4 ">
+      <ul className=" space-x-5 flex-col flex justify-center mr-auto p-4 sm:flex-row  bg-cyan_background">
         <div className="flex-1 ml-1">
           <img src={WebberLogo} alt="logo"></img>
           <p className="ml-2 text-blackdark font-bold">Webber</p>

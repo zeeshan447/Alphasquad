@@ -18,7 +18,7 @@ module.exports = {
       light_black: "#D4D4D8",
       cream: "#F4F4F5",
       blue_light: "#06B6D4",
-      cyan_background: "#a5f3fc",
+      cyan_background: "#A5F3FC",
     },
     fontSize: {
       large: ["96px", "115px"],
