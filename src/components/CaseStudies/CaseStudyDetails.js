@@ -70,6 +70,7 @@ export const CaseStudyDetails = () => {
               <p className="text-case_study_desc mb-8 mr-8 text-justify">
                 {data.Description}
               </p>
+
               <button className="text-cyan_dark text-case_study_location">
                 Read More
               </button>

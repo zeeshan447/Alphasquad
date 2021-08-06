@@ -7,7 +7,7 @@ import { MoreCaseStudies } from "./MoreCaseStudies";
 export const CaseStudyInner = () => {
   return (
     <React.Fragment>
-      <div className="ml-16 mt-8">
+      <div className="ml-16 mt-16">
         <h4 className="text-case_study_location ">Kanban Software</h4>
         <h1 className="font-extrabold text-case_studydetail_title">
           Trello x Webber
@@ -89,11 +89,11 @@ export const CaseStudyInner = () => {
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don't look.
             </p>
-            <div className="flex space-x-3">
-              <button className="px-4 py-2 bg-white text-cyan_dark h-32 w-32">
+            <div className="flex space-x-3 mt-8">
+              <button className="font-Mullish px-8 py-2 bg-white text-cyan_dark h-32 w-32">
                 Start Trial
               </button>
-              <button className="px-4 py-2 box-border border-white text-white border-2 bg-transparent">
+              <button className="font-Mullish px-8 py-2 box-border border-white text-white border-2 bg-transparent">
                 Contact Sales
               </button>
             </div>

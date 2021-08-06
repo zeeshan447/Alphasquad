@@ -4,7 +4,7 @@ import WebberLogo from "../../images/logo.png";
 export const Footer = () => {
   return (
     <React.Fragment>
-      <footer className="grid grid-cols-4 bg-cream mt-8 pt-52">
+      <footer className="grid grid-cols-4 bg-cream mt-8 pt-52 text-center">
         <div className="ml-8">
           <img src={WebberLogo} alt="logo"></img>
           <p className="text-case_study_location text-black_dark ml-2 mt-2 font-black">
