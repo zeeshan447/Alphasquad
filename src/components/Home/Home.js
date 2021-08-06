@@ -9,7 +9,7 @@ import { NextBigThing } from "./NextBigThing";
 export const Home = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-cyan_background-400">
+      <div className="bg-gradient-to-r from-cyan_background-400 mt-52">
         <div>
           <h1 className="text-center text-large font-black">
             DEPLOY YOUR
