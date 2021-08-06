@@ -90,10 +90,12 @@ export const CaseStudyInner = () => {
               injected humour, or randomised words which don't look.
             </p>
             <div className="flex space-x-3">
-              <button className="bg-white text-cyan h-32 w-32">
+              <button className="px-4 py-2 bg-white text-cyan_dark h-32 w-32">
                 Start Trial
               </button>
-              <button>Contact Sales</button>
+              <button className="px-4 py-2 box-border border-white text-white border-2 bg-transparent">
+                Contact Sales
+              </button>
             </div>
           </div>
         </div>

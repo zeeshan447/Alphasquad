@@ -43,7 +43,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <div className="flex-1 w-1">
-          <button className="bg-cyan-500 text-cyan_dark ml-80 rounded">
+          <button className="px-4 py-2 bg-cyan text-cyan_dark ml-80 rounded">
             Sign In
           </button>
         </div>
