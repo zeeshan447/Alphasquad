@@ -5,6 +5,7 @@ import { Message } from "./Message";
 import { Brands } from "./Brands";
 import { Numbers } from "./Numbers";
 import { NextBigThing } from "./NextBigThing";
+import { BrowserTheme } from "./BrowserTheme";
 
 export const Home = () => {
   return (
@@ -24,6 +25,8 @@ export const Home = () => {
             Learn More
           </button>
         </div>
+        <BrowserTheme />
+
         <Feature />
       </div>
 

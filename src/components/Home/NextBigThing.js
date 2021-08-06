@@ -3,7 +3,7 @@ import React from "react";
 export const NextBigThing = () => {
   return (
     <div>
-      <h1 className="text-center font-black	 text-nextbigthing_title mt-32 pt-8">
+      <h1 className="text-center font-black	 text-nextbigthing_title mt-64 pt-8">
         Build the next big thing and ship to
         <span className="block">market faster </span>
       </h1>
