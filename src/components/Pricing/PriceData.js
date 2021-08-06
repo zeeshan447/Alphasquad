@@ -91,11 +91,17 @@ export const PriceData = () => {
             </React.Fragment>
           );
         })}
-        <div className="flex flex-row mt-24 ml-60 space-x-64 ">
-          <button>Choose plan</button>
-          <button>Choose plan</button>
-          <button>Choose plan</button>
-        </div>
+      </div>
+      <div className="flex flex-row mt-24 ml-96 space-x-64 ">
+        <button className="px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
+          Choose plan
+        </button>
+        <button className="px-4 py-2 w-40 h-14 text-white bg-blue_dark">
+          Choose plan
+        </button>
+        <button className="px-4 py-2 w-40 h-14 bg-cyan text-cyan_dark">
+          Choose plan
+        </button>
       </div>
     </React.Fragment>
   );
