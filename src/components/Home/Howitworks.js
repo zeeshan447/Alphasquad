@@ -4,7 +4,7 @@ import next from "../../images/next.png";
 export const Howitworks = () => {
   return (
     <div>
-      <h2 className="text-center font-black text-howitworks_title mt-8">
+      <h2 className="text-center font-black text-howitworks_title mt-64">
         How it works
       </h2>
       <div className="grid grid-cols-2 mt-60">
